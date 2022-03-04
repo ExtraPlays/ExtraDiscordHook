@@ -1,0 +1,7 @@
+name: eDiscordHook
+version: '${project.version}'
+main: me.extraplays.discordhook.DiscordHook
+description: Permite que seus jogadores vinculem sua conta do discord ao minecraft
+commands:
+  vincular:
+    description: vincule sua conta do discord
