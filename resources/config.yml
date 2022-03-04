@@ -1,0 +1,27 @@
+#### Bot Token. discord.com/developers
+token: 'SEU TOKEN'
+
+#### Server Guild ID
+guildId: '922117746731388988'
+
+#### Time to cancel verification (IN SECONDS)
+timeToCancel: 60
+
+#### Role that will be added to the member
+roles:
+  linked: '941406823653732353'
+
+#### Play Sound ?
+sounds:
+  enable: true
+  success: 'NOTE_PLING'
+  fail: 'NOTE_PLING'
+
+#### Rewards on Linking to discod
+rewards:
+  items:
+    - "diamond;32"
+    - "diamond_block;64"
+  commands:
+    #- 'crates give @player normal 1'
+    - 'money add @player 5000'
